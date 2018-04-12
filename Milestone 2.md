@@ -21,7 +21,7 @@ Afterwards, the pieces notated using the Saregam notation system can be processe
 
 Little more need to be done in order to begin with the exploratory analysis of the dataset.
 
-One strong drawback of our dataset is that it is rather small (43 compositions for ~5000 notes), and by far limited as to the number of raags it covers, considered the depth of the raga modal world. However, inasmuch as Afghan art is borrowing from Hindustani music, it is said to have its own modal identity, and not only that of a borrowed culture. In this identity, the main modes limit to a quite smaller subset., some which are not among North Indian raags.  Nevertheless, our data still lacks compositions in two major of these modes, Bairami and Pilo. Some are included in the data left to integrate in our pipeline, which will be done over the next days, and so this shortage will be partly covered.
+One strong drawback of our dataset is that it is rather small (43 compositions for ~5000 notes), and by far limited as to the number of raags it covers, considered the depth of the raga modal world. However, inasmuch as Afghan art is borrowing from Hindustani music, it is said to have its own modal identity, and not only that of a borrowed culture. In this identity, the main modes limit to a quite smaller subset, some which are not among North Indian raags (Baily, J. (1981). A System of Modes Used in the Urban Music of Afghanistan. Ethnomusicology, 25(1), 1. doi:10.2307/850973). Nevertheless, our data still lacks compositions in two major of these modes, Bairami and Pilo. Some are included in the data left to integrate in our pipeline, which will be done over the next days, and so this shortage will be partly covered.
 Our data comes mostly from an individual source, and this could be seen as a potential bias. Given how this source is regarded as the specialist ethnomusicologist of the music we deal with, this uncertainty can reasonably be dismissed. Another bias which we identified is that a number of compositions in our dataset are themes composed specifically for the Afghan rubab, but by an Indian sitar player. We would assume this would create a bias against a proper specificity of Afghan music. However, this number is fairly small even in proportion to our dataset, as only 4 themes are concerned.
 
 ## Basic Statistics
@@ -30,7 +30,7 @@ Let us look at some distribution features of the notes (which are really the imp
 
  ![Table 2](distrib.png)
  ![Table 3](plot2.png)
- 
+
 Unsurprisingly we see the importance of Pe (the fifth), but more surprisingly (at least for us!) we see that the tonic has a smaller frequency of appearance than its higher octave version, or than the fourth and the sixth. On the plot, we clearly see how the distributions revolves around the fifth (and even builds to it), with a major importance for the tonic at both octave as well showing an expected tension between these poles.
 
 The next plot shows the distribution of notes per single mode. We see how each mode appears quite different from the other, although a few look similar to each other. This comforts us in the idea that a classification task could be successful.
