@@ -29,7 +29,8 @@ Our data comes mostly from an individual source, and this could be seen as a pot
 Let us look at some distribution features of the notes (which are really the important variables to consider for us) computed over the full dataset.
 
  ![Table 2](distrib.png)
- ![Table 3](plot1.png)
+ ![Table 3](plot2.png)
+ 
 Unsurprisingly we see the importance of Pe (the fifth), but more surprisingly (at least for us!) we see that the tonic has a smaller frequency of appearance than its higher octave version, or than the fourth and the sixth. On the plot, we clearly see how the distributions revolves around the fifth (and even builds to it), with a major importance for the tonic at both octave as well showing an expected tension between these poles.
 
 The next plot shows the distribution of notes per single mode. We see how each mode appears quite different from the other, although a few look similar to each other. This comforts us in the idea that a classification task could be successful.
